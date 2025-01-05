@@ -1,0 +1,75 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+header {
+    background: #333333;
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+}
+header nav a {
+    margin: 0 1rem;
+    color: white;
+    text-decoration: none;
+}
+header nav a:hover {
+    text-decoration: underline;
+}
+main {
+    padding: 2rem;
+}
+section {
+    margin-bottom: 2rem;
+}
+h2 {
+    color: #333;
+}
+.portfolio-grid {
+    display:flexbox;
+    gap: 1rem;
+}
+.project {
+    background: #1f1e22;
+    border: 1px solid #7a0d0d;
+    padding: 1rem;
+    flex: 1;
+    text-align: center;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 5px 5px;
+}
+input, textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+button {
+    padding: 0.5rem 1rem;
+    border: none;
+    background: #333333;
+    color: white;
+    cursor: pointer;
+}
+button:hover {
+    background: #555;
+}
+footer {
+    text-align: center;
+    padding: 1rem;
+    background: #333;
+    color: white;
+}
+img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover; 
+    background-color: #477a0d;
+
+}
